@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springcloud-flipped-eureka-server" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring-cloud-flipped-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-flipped-pom/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-flipped-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-flipped-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-flipped-main/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-flipped-ribbon-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-flipped-feign-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-flipped-user/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring-cloud-flipped-eureka-server/springcloud-flipped-pom/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

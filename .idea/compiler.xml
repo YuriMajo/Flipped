@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-flipped-config-server" />
+        <module name="springcloud-flipped-eureka-server" />
+        <module name="springcloud-flipped-feign-server" />
+        <module name="springcloud-flipped-main" />
+        <module name="springcloud-flipped-ribbon-server" />
+        <module name="springcloud-flipped-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="flipped" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-flipped-config-server" options="-parameters" />
+      <module name="springcloud-flipped-eureka-server" options="-parameters" />
+      <module name="springcloud-flipped-main" options="-parameters" />
+      <module name="springcloud-flipped-ribbon-server" options="-parameters" />
+    </option>
+  </component>
+</project>

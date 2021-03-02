@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-flipped-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-flipped-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-flipped-feign-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-flipped-main" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-flipped-pom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-flipped-ribbon-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-flipped-user" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,19 @@
+server:
+   port: 6868
+   
+eureka:
+   instance:
+      hostname: localhost
+   client:
+      registerWithEureka: false
+      fetchRegistry: false
+      serviceUrl:
+         defaultZone: http://127.0.0.1:6868/eureka/
+   server:
+      enable-self-preservation: false  #自我保护
+      evictionIntervalTimerInMs: 60000    #开启清除无效服务的定时任务，时间间隔默认1分钟
+
+         
+spring:
+   application: 
+      name: eureka-server

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1ed39ec-b2f7-44c9-931c-373b69430b75" name="Default Changelist" comment="" />
+    <list default="true" id="c1ed39ec-b2f7-44c9-931c-373b69430b75" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-flipped-main/src/main/java/com/now/flipped/main/entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-flipped-main/src/main/java/com/now/flipped/main/entity/Company.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-flipped-eureka-server/target/" />
@@ -73,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springcloud-flipped-ribbon-server/src/main/java/com/now/springcloud/flipped/ribbon/server/SpringcloudRibbonServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="264">
               <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springcloud-flipped-main/src/main/java/com/now/flipped/main/entity/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state relative-caret-position="264">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -157,8 +160,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="83" />
+    <option name="x" value="241" />
+    <option name="y" value="80" />
     <option name="width" value="1475" />
     <option name="height" value="931" />
   </component>
@@ -417,17 +420,17 @@
       <workItem from="1614598740839" duration="596000" />
       <workItem from="1614612647927" duration="388000" />
       <workItem from="1614685546667" duration="3133000" />
+      <workItem from="1614690804266" duration="328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103243000" />
+    <option name="totallyTimeSpent" value="103571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="83" width="1475" height="931" extended-state="0" />
-    <editor active="true" />
+    <frame x="241" y="80" width="1475" height="931" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38132572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3884533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -631,6 +634,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-flipped-main/src/main/resources/flipped.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-flipped-ribbon-server/src/main/java/com/now/springcloud/flipped/ribbon/server/RibbonMainConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -641,16 +651,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-flipped-main/src/main/resources/flipped.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-flipped-ribbon-server/src/main/java/com/now/springcloud/flipped/ribbon/server/SpringcloudRibbonServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="264">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -662,8 +665,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-flipped-main/src/main/java/com/now/flipped/main/entity/Company.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state relative-caret-position="264">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

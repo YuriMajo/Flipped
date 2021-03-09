@@ -23,14 +23,39 @@ create table if not exists companyInfo(
   logo varchar(500), -- 公司logo
   intro varchar(400), -- 简介
   descr text, -- 描述
-  tradeId varchar(100), -- 公司行业id(需要行业表)
+  tradeId int, -- 公司行业
   addr varchar(100), -- 公司地址
-  -- 公司标签id(需要标签表)
-  -- scale 公司规模
-  -- 工商信息id(需要工商信息表)
+  comScale varchar(100), -- 公司规模
 )
 
--- 职位表
+-- 公司在招岗位表
+create table if not exists comJobs(
+ comId int, -- 公司编号
+ jobId int, -- 岗位编号
+ jobNums int, -- 招聘人数
+ MinSalary int, -- 最低月薪
+ MaxSalary int, -- 最高月薪
+)
+
+-- 职位:行业表
+create table if not exists jobs_trade(
+  tradeId int primary key auto_increment, -- 职位:行业编号
+  tradeName varchar(100) -- 职位-行业名称
+)
+
+-- 职业:行业-细分表
+create table if not exists jobs_trade_classify(
+  classifyId int primary key auto_increment, -- 职位:行业-细分编号
+  tradeId int, -- 职位:行业编号
+  classifyName varchar(100) -- 职位:行业-细分名称
+)
+
+-- 职业:行业-细分-岗位表
+create table if not exists jobs_trade_classify_job(
+  jobId int primary key auto_increment, -- 职位:行业-细分-岗位编号
+  classifyId int, -- 职位:行业-细分编号
+  jobName varchar(100) -- 岗位名称
+)
 
 
 -- 求职者信息表

@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="css/personal.css" />
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/personal.js"></script>
+<title>个人中心-地图搜索</title>
+</head>
+
+<body>
+<div class="header">
+  <div class="headerMain">
+    <div class="Notice">
+      <span>公告：</span>
+      <a href="">有实力就不怕平庸 如何离高薪更进一步</a>
+    </div>
+    <div class="Account">
+      <div class="Left">
+      <div class="Info">
+        <font>[28421947]</font>
+        <input type="button">
+        <div id="InfoPopup">
+          <ul>
+            <li><a href="personal_updatepsd.html">修改密码</a></li>
+            <li><a href="personal_updatenum.html">修改手机</a></li>
+            <li><a href="personal_renzheng.html">修改邮箱</a></li>
+            <li><a href="index.html">退出</a></li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <div class="Left">
+        <a class="Mobile" href="">手机版</a>
+      </div>
+      <div class="Left">
+      <div class="Weixin">微信
+        <div id="WeixinPopup">
+          <img src="images/showqrcode.jpg" width="120" height="120">
+          <p>扫一扫完成绑定<br>求职信息接收及时，<br>不再错过好工作！</p>
+        </div>
+	  </div>
+      </div> 
+      
+    </div>
+  </div>
+</div>
+<div class="navTop">
+  <div class="navTopmain">
+     <div class="logo"><a href="index.html"><img src="images/logo_1.png"/><img src="images/logo_2.png" /></a></div>
+     <div class="nav">
+        <div class="navItem"><a href="index.html">首页</a></div>
+        <div class="navItem"><a href="searchJob.html">职位搜索</a></div>
+        <div class="navItem"><a href="meetingJob.html">招聘会</a></div>
+        <div class="navItem"><a href="">政府招考</a></div>
+        <div class="navItem"><a href="">校园招聘</a></div>
+        <div class="navItem other">
+           <div style="position:relative;">
+           <span>更多</span>
+           <div id="TopNavMorePopup">
+              <ul> 
+                <li><a href="jobnews.html">就业资讯</a></li>
+                <li><a href="download.html">文档下载</a></li>
+                <li><a href="helpJob.html">求职互助</a></li>
+              </ul>
+          </div>
+          </div>
+        </div>
+     </div>
+  </div>
+</div>
+<div class="personalBody">
+   <div class="perLeftnav">
+      <div class="NavLeftTop">个人中心</div>
+      <div class="NavLeftMain">
+         <div class="NavLeftBox">
+            <a href="personal.html" class="a1">会员首页</a>
+         </div>
+         <div class="NavLeftBox">
+            <a href="personal_jl.html" class="a2">我的简历</a>
+         </div>
+         <div class="NavLeftBox active">
+            <a href="personal_zwss.html" class="a3">职位搜索</a>
+         </div>
+         <div class="NavLeftBox">
+            <a href="personal_cai.html" class="a4">你的菜儿</a>
+         </div>
+         <div class="NavLeftBox twoNav">
+            <a class="a5">职位申请</a>
+            <span class="up"></span>
+         </div>
+         <ul>
+           <li><a href="personal_sqzw.html">申请的职位</a></li>
+           <li><a href="personal_mygz.html">我的关注</a></li>
+         </ul>
+         <div class="NavLeftBox twoNav">
+            <a class="a6">企业邀约</a>
+            <span class="up"></span>
+         </div>
+         <ul>
+           <li><a href="personal_mainshi.html">面试通知</a></li>
+           <li><a href="personal_yaoqing.html">应聘邀请</a></li>
+           <li><a href="personal_whogz.html">谁在关注我</a></li>
+           <li><a href="personal_goutong.html">在线沟通记录</a></li>
+         </ul>
+         <div class="NavLeftBox">
+            <a href="personal_zhanghu.html" class="a7">账户管理</a>
+         </div>
+         <div class="NavLeftBox">
+            <a href="personal_help.html" class="a8">帮助中心</a>
+         </div>
+      </div>
+      <div class="navLeftBottom">
+         <span class="sys">扫一扫绑定微信</span><br />
+         <img src="images/showqrcode.jpg" />
+         <span class="Notice">蝶飞人才网<br>找工作更靠谱</span>
+      </div>
+   </div>
+   <div class="perRightcon">
+      <div class="commonTit">
+         <h1 class="fl">地图搜索</h1>
+      </div>
+      <div class="zwssPart4">
+         <span>工作地点</span>
+         <input name="" type="text" value="河北省" />
+         <span>中心位置</span>
+         <input name="" type="text" value="请选择热门地标" />
+         <span>距离范围</span>
+         <input name="" type="text" value="3公里" />
+         <span>职位类别</span>
+         <input name="" type="text" value="请选择职位类别" />
+         <span>行业类别</span>
+         <input name="" type="text" value="请选择行业"/>
+         <input name="" type="button" class="seachJOBbtn" value="搜工作" />
+         <a href="">职位分布图</a>
+      </div>
+      <div class="clear"></div>
+      <div class="zwssPart5">
+         <div class="zwssPart5_1">热门地标</div>
+         <div class="zwssPart5_2">
+            <span>工作地点</span>
+            <input name="" type="text" value="石家庄市" />
+         </div>
+         <div class="clear"></div>
+         <div class="zwssPart5_3">
+            <span><a href="javascript:void(0)">美丽华大酒店</a></span>
+            <span><a href="javascript:void(0)">省博物馆</a></span>
+            <span><a href="javascript:void(0)">颐馨商务</a></span>
+            <span><a href="javascript:void(0)">河北人防大厦</a></span>
+            <span><a href="javascript:void(0)">太和商务大厦</a></span>
+            <span><a href="javascript:void(0)">古韵文化广场</a></span>
+            <span><a href="javascript:void(0)">石刻园</a></span>
+            <span><a href="javascript:void(0)">五星花园</a></span>
+            <span><a href="javascript:void(0)">石家庄美术馆</a></span>
+            <span><a href="javascript:void(0)">祥云国际</a></span>
+            <span><a href="javascript:void(0)">水上公园</a></span>
+            <span><a href="javascript:void(0)">石房大厦</a></span>
+            <span><a href="javascript:void(0)">东方国际</a></span>
+            <span><a href="javascript:void(0)">岳泰明珠</a></span>
+            <span><a href="javascript:void(0)">颐馨商务</a></span>
+            <span><a href="javascript:void(0)">清凉山</a></span>
+            <span><a href="javascript:void(0)">荣辉宾馆</a></span>
+            <span><a href="javascript:void(0)">世纪公园</a></span>
+            <span><a href="javascript:void(0)">卓达国际会展中心</a></span>
+            <span><a href="javascript:void(0)">中仰陵</a></span>
+            <span><a href="javascript:void(0)">怀特国际商城</a></span>
+            <span><a href="javascript:void(0)">东环公园</a></span>
+            <span><a href="javascript:void(0)">金湖宾馆</a></span>
+            <span><a href="javascript:void(0)">广惠寺</a></span>
+            <span><a href="javascript:void(0)">物资大厦</a></span>
+            <span><a href="javascript:void(0)">华阳购物中心</a></span>
+            <span><a href="javascript:void(0)">颐馨商务</a></span>
+            <span><a href="javascript:void(0)">百货商场</a></span>
+            <span><a href="javascript:void(0)">栾城大酒店</a></span>
+            <span><a href="javascript:void(0)">惠民商厦</a></span>
+            <span><a href="javascript:void(0)">家乐福超市</a></span>
+            <span><a href="javascript:void(0)">大自然</a></span>
+            <span><a href="javascript:void(0)">百货大楼</a></span>
+            <span><a href="javascript:void(0)">富泽园</a></span>
+            <span><a href="javascript:void(0)">西街花园</a></span>
+            <span><a href="javascript:void(0)">平安公园</a></span>
+            <span><a href="javascript:void(0)">神池北国商城</a></span>
+            <span><a href="javascript:void(0)">盛世华庭</a></span> 
+            <span><a href="javascript:void(0)">颐馨商务</a></span>
+            <span><a href="javascript:void(0)">辛集影剧院</a></span>
+            <span><a href="javascript:void(0)">皮都购物中心</a></span>
+            <span><a href="javascript:void(0)">书香园</a></span>
+            <span><a href="javascript:void(0)">鹿洲商场</a></span>
+            <span><a href="javascript:void(0)">和平公园</a></span>
+            <span><a href="javascript:void(0)">红楼</a></span>
+            <span><a href="javascript:void(0)">水上公园</a></span>
+            <span><a href="javascript:void(0)">金鼎轩大酒店</a></span>
+            <span><a href="javascript:void(0)">巴帝亚度假村</a></span>
+            <span><a href="javascript:void(0)">东方购物中心</a></span>
+            <span><a href="javascript:void(0)">梨花园</a></span>
+            <span><a href="javascript:void(0)">颐馨商务</a></span>
+            <span><a href="javascript:void(0)">龙腾购物广场</a></span>
+            <span><a href="javascript:void(0)">绿苑休闲农庄</a></span>
+            <span><a href="javascript:void(0)">泰和花园</a></span>
+            <span><a href="javascript:void(0)">人民商厦</a></span>
+            <span><a href="javascript:void(0)">石家庄动物园</a></span>
+            <span><a href="javascript:void(0)">鹿泉商厦</a></span>
+            <span><a href="javascript:void(0)">世外庄园</a></span>
+            <span><a href="javascript:void(0)">维明购物广场</a></span>                                                    
+         </div>
+         <div class="clear"></div>
+         <div class="zwssPart5_1">地铁沿线</div>
+         <div class="zwssPart5_4">
+            <div>
+               <div class="zwssPart5_4l">
+                  <span>地铁1号线</span>
+               </div>
+               <div class="zwssPart5_4r">
+                  <span><a href="javascript:void(0)">西王站</a></span>
+                  <span><a href="javascript:void(0)">时光街站</a></span>
+                  <span><a href="javascript:void(0)">长城桥站</a></span>
+                  <span><a href="javascript:void(0)">和平医院站</a></span>
+                  <span><a href="javascript:void(0)">烈士陵园站</a></span>
+                  <span><a href="javascript:void(0)">新百广场站</a></span>
+                  <span><a href="javascript:void(0)">解放广场站</a></span>
+                  <span><a href="javascript:void(0)">平安大街站</a></span>
+                  <span><a href="javascript:void(0)">北国商城站</a></span>
+                  <span><a href="javascript:void(0)">博物院站</a></span>
+                  <span><a href="javascript:void(0)">体育场站</a></span>
+                  <span><a href="javascript:void(0)">北宋站</a></span>
+                  <span><a href="javascript:void(0)">谈固站</a></span>
+                  <span><a href="javascript:void(0)">朝晖桥站</a></span>
+                  <span><a href="javascript:void(0)">白佛站</a></span>
+                  <span><a href="javascript:void(0)">留村站</a></span>
+                  <span><a href="javascript:void(0)">火炬广场站</a></span>
+                  <span><a href="javascript:void(0)">石家庄东</a></span>
+                  <span><a href="javascript:void(0)">南村站</a></span>
+                  <span><a href="javascript:void(0)">洨河大道</a></span>                   
+               </div>
+            </div>
+            <div class="clear"></div>
+            <div>
+               <div class="zwssPart5_4l">
+                  <span>地铁3号线</span>
+               </div>
+               <div class="zwssPart5_4r">
+                  <span><a href="javascript:void(0)">石家庄站</a></span>
+                  <span><a href="javascript:void(0)">西三教站</a></span>
+                  <span><a href="javascript:void(0)">槐安桥站</a></span>
+                  <span><a href="javascript:void(0)">东里站</a></span>
+                  <span><a href="javascript:void(0)">新百广场站</a></span>
+                  <span><a href="javascript:void(0)">市二中站</a></span>	     
+                  
+               </div>
+            </div>
+         </div>
+      </div>
+      
+   </div>
+</div>
+
+
+<div class="clear"></div>
+<div class="footer">
+   <p><a href="">**人才</a>旗下<img src="images/logo_foot.gif" />蝶飞人才网版权所有 <a href="">京ICP证0******9号</a><a href=""></a>本网站所有招聘信息，未经书面授权不得转载 投诉电话：400-8**-****</p>
+</div>
+</body>
+</html>
